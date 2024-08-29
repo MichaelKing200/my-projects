@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   .login-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 40px;
+   }
+   .box {
+    width: 350px;
+    height: 450px;
+   }
+   .box-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+   }
+   .password {
+    width: 300px;
+   }
+   .username {
+    width: 300px;
+   }
+   .fp {
+    text-decoration: none;
+    color: black;
+    margin-left: 200px;
+    margin-bottom: 40px;
+   }
+   .new-student {
+    display: flex;
+    align-items: center;
+   }
+   .acc {
+    text-decoration: none;
+
+   }
+   .button {
+    background-color: blue;
+    color: blue;
+    margin-right: 300px;
+   }
+  </style>
+</head>
+<body class="login-section">
+  <div>
+    <img src="images/graduation-day.jpg" alt="" width="400">
+  </div>
+  <div class="login">
+    <fieldset class="box">
+     <div class="box-info">
+      <img src="images/coou.png" alt="">
+      <h2>Welcome to COOU</h2>
+      <P>Access your portal</P>
+     </div>
+    <form action="">
+      <p>Username</p>
+      <input class="username" type="text" placeholder="Enter username">
+
+      <p>Password</p>
+      <input class="password" type="password" placeholder="password">
+      <a class="fp" href="#">Forgot Password?</a> <br>
+      &nbsp;<hr>
+     <div class="new-student">
+      <p>New Student?</p>
+      <a class="acc" href="#">verify account</a>
+      <button class="btn">sign in</button>
+     </div>
+    </form>
+  </fieldset>
+  </div>
+</body>
+</html>

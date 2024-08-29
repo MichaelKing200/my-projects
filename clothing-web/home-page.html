@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Clothing Collection</title>
+
+    <link rel="stylesheet" href="home-page2.css">
+</head>
+
+<body>
+    <header>
+        <h1>J-KING</h1>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="Men's-collection.html">men</a></li>
+                <li><a href="Women's-collection.html">Women</a></li>
+                <li><a href="Children's-collection.html">Children</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Welcome to Our Collection</h2>
+        <p>Discover the latest trends in fashion.</p>
+    </section>
+
+    <section id="shop">
+        <h2>Shop the Collection</h2>
+        <div class="product">
+            <img src="../images/mencloth.jpg" alt="Product 1" width="200px" broder-radius="100px">
+            <img src="../images/mencloth2.jpg" alt="" width="200px" broder-radius="100px" left="22px">
+            <h3>Product 1</h3>
+            <p>Description of Product 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button onclick="addToCart('Product 1', 29.99)">Add to Cart</button>
+          
+        </div>
+        <div class="product">
+          <img src="../images/womencloth.jpg" alt="product 2" width="200px" broder-radius="100px">
+          <img src="../images/womencloth2.jpg" alt="product 2" width="200px" broder-radius="100px" left="22px">
+          <h3>product 2.</h3>
+          <p>Discover the latest trend on female Collection</p>
+          <button onclick="addToCart('Product 2', 29.99)">Add to cart</button>
+      </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Reach out to us!</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Your Clothing Collection. All rights reserved.</p>
+    </footer>
+
+    <script>
+      function addToCart(productName, price) {
+    alert(`Added ${productName} to cart. Total: $${price}`);
+}
+  function toggleMenu() {
+    const menu = document.querySelector('nav ul');
+    menu.classList.toggle('show');
+  }
+    </script>
+</body>
+</html>

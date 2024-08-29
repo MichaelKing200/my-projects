@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kings bet</title>
+  <link rel="stylesheet" href="index3.css">
+</head>
+<body>
+   <div class="header">
+
+   </div>
+    <div class="logo-container" id="logo-container">
+        <div class="color-images">
+            <img src="images/k2.jpg" alt="k2.jpg" class="centered-image" width="80px" height="100px">
+        </div>
+        <h1>kings bet</h1>
+    </div>
+
+    <div class="blinking-k" id="blinking-k">K</div>
+
+    <script>
+        // Wait for the DOM to be fully loaded
+        document.addEventListener("DOMContentLoaded", function() {
+            // Wait for 3 seconds before removing the image and showing the blinking K
+            setTimeout(function() {
+                document.getElementById('logo-container').style.display = 'none';
+                document.getElementById('blinking-k').style.display = 'block';
+                
+                // Allow scrollbar to appear after loading
+                document.body.style.overflow = 'visible';
+                
+                // After an additional 3 seconds, redirect to the home page
+                setTimeout(function() {
+                    window.location.href="kings-bet/home-page.html"
+                }, 3000);
+            }, 3000);
+        });
+    </script>
+</body>
+</html>

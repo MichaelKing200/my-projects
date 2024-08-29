@@ -1,0 +1,125 @@
+body {
+background-color: rgba(0, 0, 0, 0.859);
+
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: black;
+
+}
+.header::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 87px;
+    width: 50%;
+    height: 100px;
+    background: linear-gradient(to top, rgba(39, 7, 24, 0.959), rgba(238, 182, 216, 0.828));
+}
+.logo {
+    width: 100px;
+    margin-left: 20px;
+    border: 0;
+    border-radius: 50px;
+}
+.right-section {
+    margin-right: 100px;
+}
+.p, .s, .d, .login, .sign-up {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+a {
+    transition: 0.3s ease;
+}
+a:hover {
+color: green;
+}
+@media (max-width: 600px) {
+    .right-section {
+        display: none;
+    }
+}
+.h1, .p {
+    color: white;
+    margin-top: 96px;
+}
+.p {
+margin-top: 5px;
+}
+.h1 {
+    margin-left: 10px;
+    line-height: 40px;
+}
+.container {
+display: flex;  
+justify-content: space-between;
+flex-direction: row;
+}
+.info {
+    width: 300px; 
+    display: flex;
+    flex-direction: column;
+    
+}
+.bg-image {
+    position: relative;
+}
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .header::after {
+        width: 100%;
+        height: 70%;
+    }
+   
+    .h1 {
+        color: white;
+        margin-top: 350px;
+        width: 100%;
+    }
+    .bg-image {
+        display: none;
+    }
+    .info {
+        width: 600px;
+    }
+}
+.btn {
+    display: flex;
+    flex-direction: row;
+}
+.btn1 {
+    width: 190px;
+    height: 50px;
+    border-radius: 75px;
+    background-color: lightpink;
+    margin-right: 10px;
+    font-weight: 700;
+    border: 0;
+}
+.btn1:hover {
+    background-color: white;
+}
+.btn2 {
+    width: 130px;
+    border-radius: 65px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    border: 0;
+}
+.p2 {
+    color: white;
+    font-size: 10px;
+}
+.nav {
+  color: white; 
+  cursor: pointer; 
+}

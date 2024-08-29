@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> q;-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      align-items: center;
+    }
+    .form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .username, .password, .email {
+      width: 250px;
+      height: 50px;
+      border: 1px solid black;
+      border-radius: 25px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      padding-left: 20px;
+    }
+    p {
+      margin-right: 180px;
+      color: blue;
+    }
+    .reg{
+      position: relative;
+      background-color: white;
+      width: 600px;
+      margin-left: 70px;
+      height: 600px;
+      top: 100px;
+      border-radius: 20px;
+  
+    }
+    h1{
+      vertical-align: middle;
+      margin-left: 250px;
+      color: blue;
+    }
+    .login {
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .p1 {
+      color: black;
+      margin-left: 110px;
+    }
+    .btn1 {
+      width: 250px;
+      height: 40px;
+      margin: 30px;
+      background-color: blue;
+      color: white;
+      border: 0;
+      border-radius: 20px;
+    }
+    .bg{
+      position: absolute;
+      width: 1000px;
+    }
+  </style>
+</head>
+<body>
+  <img class="bg" src="images/joyful-student.jpg" alt="">
+  <div class="reg">
+    <h1>Sign up</h1>
+  <form class="form" action="">
+    <p>Username</p>
+    <input class="username" type="text" placeholder="Enter username" required>
+
+    <p>Email</p>
+<input class="email" type="email" placeholder="Enter Email" required>
+
+    <p>password</p>
+    <input class="password" type="password" placeholder="Enter password" required>
+
+    <button class="btn1">Sign up</button>
+    <p class="p1">Already have an account? <span><a class="login" href="#">Login</a></span>
+  </form>
+</div>
+</body>
+</html>

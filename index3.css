@@ -1,0 +1,50 @@
+
+body {
+    background-color: red;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ensure full viewport height */
+    overflow: hidden; /* Hide scrollbar during loading */
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.header a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.logo-container {
+    text-align: center;
+    width: 1000px;
+    border-radius: 700px;
+    float: left;
+    margin: 10px;
+    color: antiquewhite;
+}
+
+@keyframes blinkForwardBackward {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.blinking-k {
+    font-size: 48px;
+    animation: blinkForwardBackward 1s ease-in-out infinite;
+    display: none; /* Initially hide the blinking K */
+}

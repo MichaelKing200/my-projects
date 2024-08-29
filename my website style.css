@@ -1,0 +1,97 @@
+@import url("http://use.fontawesome.com/releases/v6.5.1/css/all.css");
+
+/*TikTok @code The World */
+
+:root {
+    --light-color: rgba(0, 176, 255, 1); 
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+li {
+    width: 100px;
+    text-align: center;
+}
+
+i,
+input {
+    display: block;
+    text-align: center;
+}
+
+i {
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+input {
+    display: none;
+}
+
+.check {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(#000, #333);
+    border-radius: 50px;
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #1b1b1b;
+    border-radius: 50%;
+    transition: 0.5s;
+    z-index: 3;
+}
+
+.check::after {
+    content: "";
+    position: absolute;
+    background-color: #222;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    border-radius: 50%;
+    z-index: 2;
+    border: 2px solid #161616;
+}
+
+input:checked~.check::before {
+    background-color: var(--light-color);
+    box-shadow: 
+    0 0 10px var(--light-color),
+    0 0 15px var(--light-color),
+    0 0 20px var(--light-color),
+    0 0 25px var(--light-color),
+    0 0 0 2px rgba(0, 176, 255, 0.1)
+}
+
+i {
+    color: #222;
+}
+
+input:checked~i {
+    color: var(--light-color);
+}

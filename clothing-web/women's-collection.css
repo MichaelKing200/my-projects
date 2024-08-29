@@ -1,0 +1,21 @@
+
+.women {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+}
+
+.women a {
+    margin: 10px; /* Adjust the margin based on your preference */
+}
+
+.women img {
+    width: 200px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.women h3 {
+    text-align: center;
+}

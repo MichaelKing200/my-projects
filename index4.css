@@ -1,0 +1,425 @@
+.sporty {
+    width: 200px;
+    margin-top: -50px;
+    }
+    .Nig {
+        margin-top: -50px;
+    }
+   .header {
+    background-color: red;
+    height: 130px;
+    display: flex;
+   }
+   .left-section {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+   }
+   .middle-section {
+    margin-left: 200px;
+    padding-top: 20px;
+   }
+   .select {
+    margin-right: -5px;
+    border-right: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 7px;
+    padding-left: 7px;
+    border: 0;
+    background-color: rgb(214, 45, 45);
+    color: white;
+   }
+   .search-bar {
+
+    height: 30px;
+    width: 130px;
+    border-left: none;
+    border: 0;
+    background-color: rgb(214, 45, 45);
+    color: white;
+
+   }
+   .password {
+    background-color: rgb(214, 45, 45);
+    border: 0;
+    height: 30px;
+    font-size: 14px;
+    width: 130px;
+    color: white;
+   }
+   .Login {
+    width: 70px;
+    background-color:  rgb(168, 24, 24);
+    border: 0;
+    height: 32px;
+    margin-left: -10px;
+    color: white;
+    cursor: pointer;
+   }
+   .Register {
+    width: 70px;
+    border: 1px;
+    border-style: solid;
+    height: 30px;
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+   }
+   .check {
+    display: flex;
+    align-items: center;
+    margin-top: -13px;
+    background-color: red;
+    color: rgb(220, 198, 198);
+    margin-left: 85px;
+   }
+   .checkbox {
+    background-color: red;
+    border: 1px;
+    border-style: solid;
+    cursor: pointer;
+   }
+   .p1 {
+    font-size: 14px;
+
+   }
+   .fp {
+    margin-left: 15px;
+    text-decoration: none;
+    color: rgb(220, 198, 198);
+    margin-right: 14px;
+    font-size: 14px;
+    cursor: pointer;
+
+   }
+   .d, .r {
+    text-decoration: none;
+    color: rgb(220, 198, 198);
+    font-size: 14px;
+    cursor: pointer;
+   }
+   @media (max-width: 600px) {
+    .middle-section {
+        display: none;
+    }
+   }
+
+   .down-section {
+    display: flex;
+    margin-left: -900px;
+    margin-top: 70px;
+   }
+   @media (max-width: 600px) {
+    .down-section {
+        margin-left: -300px;
+    }
+   }
+   
+   .sp, .ca, .li, .sv, .ja, .ls, .Re, .Pr, .app {
+    margin-left: 10px;
+    height: 40px;
+    width: 80px;
+    margin-top: 20px;
+    border: 0;
+    background-color: red;
+    color: white;
+   }
+   .sp:hover,.ca:hover , .li:hover , .sv:hover , .ja:hover , .ls:hover , .Re:hover , .Pr:hover , .app:hover {
+    background-color: rgb(168, 24, 24);
+   }
+    .sp.clicked, .ca.clicked, .li.clicked, .sv.clicked, .ja.clicked, .ls.clicked, .Re.clicked, .Pr.clicked, .app.clicked {
+    background-color: white;
+    color: red;
+   } 
+   .p2 {
+    margin-top: 20px;
+   color: white;
+   }
+    
+ .sports, .sports2 {
+    margin-left: 20px;
+    margin-top: 20px;
+ }
+.h, .fb, .vf, .bb, .t, .tb, .ef, .ih, .vb, .bv {
+text-decoration: none;
+color: black;
+cursor: pointer;
+margin-left: 20px;
+font-size: 14px;
+}
+.select2 {
+    border: 0;
+    width: 90px;
+    cursor: pointer;
+}
+
+.h:hover, .fb:hover, .vf:hover, .bb:hover, .t:hover, .tb:hover, .ef:hover, .ih:hover, .vb:hover, .bv:hover {
+    border-bottom: 2px;
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: rgb(223, 177, 177);
+}
+@media (max-width: 600px) {
+    .sports {
+        width: 900px;
+    }
+}
+.subdiv {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.943);
+    align-items: center;
+}
+.sub-img {
+    width: 500px;
+}
+.left {
+    width: 200px;
+    padding-left: 50px;
+
+}
+.h3 {
+    color: white;
+}
+.today, .up, .euro, .copa {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.select3 {
+    margin-right: 100px;
+    border-right: none;
+    width: 45px;
+    height: 27px;
+    font-size: 14px;
+    border: none;
+    background-color: none;
+    color: black;
+   }
+   
+   .search-bar2 {
+    height: 27px;
+      width: 120px;
+    border-left: none;
+    border: none;
+    background-color: white;
+    color: black;
+    margin-left: -105px;
+   margin-right: 15px;
+   font-size: 14px;
+   }
+h4 {
+    color: white;
+    margin-top: -90px;
+    position: absolute;
+}
+.p4 {
+    color: green;
+    margin-top: -60px;
+    position: relative;
+    margin-left: -30px;
+    font-size: 14px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+}
+.btn {
+    margin-left: -170px;
+    border: 0;
+    margin-top: 50px;
+    position: absolute;
+    width: 150px;
+    border-radius: 1px;
+   background-color: green;
+   color: white;
+   height: 30px;
+}
+@media (max-width: 600px) {
+    .btn {
+        margin-left: 150px;
+    }
+    .left {
+        margin-left: -20px;
+    }
+    .middle {
+        margin-left: 50px;
+    }
+}
+.greater-than {
+    margin-left: 10px;
+    align-items: center;
+    color: rgb(18, 226, 18);
+}
+.d-img {
+    margin-top: 20px;
+    width: 700px;
+}
+.s-img {
+    width: 800px;
+    margin-left: 70px;
+}
+
+
+ .fb2, .vf2, .bb2, .t2 {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-left: 40px;
+    }
+    .select4 {
+        border: 0;
+        width: 90px;
+        cursor: pointer;
+    }
+    
+ .fb2:hover, .vf2:hover, .bb2:hover, .t2:hover {
+    border-bottom: 5px;
+    border-style: solid;
+    border-top: 9px;
+    border-left: 0;
+    border-right: 0;
+    border-color: rgb(40, 194, 40);
+}
+@media (max-width: 600px) {
+    .sports {
+        width: 900px;
+    }
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 10px;
+}
+.first {
+    display: flex;
+    align-items: center;
+
+}
+.p6 {
+ margin-left: 400px;
+}
+.qh {
+  margin-left: 20px;
+}
+.container {
+    display: flex;
+  }
+  .set {
+    margin-top: 20px;
+    margin-left: 60px;
+  }
+  .subdiv2 {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    height: 400px;
+    width: 600px;
+  }
+  .lil-info {
+    display: flex;
+    align-items: center;
+    /* width: 300px; */
+  }
+  .high {
+    margin-left: 20px;
+  }
+  .subdiv3 {
+    padding: 10px;
+    margin: 10px;
+  }
+  .subdiv4 {
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: 200px;
+    margin-top: 30px;
+  }
+  .inline-sub {
+    display: flex;
+  }
+  .bet {
+    color: white;
+    padding-left: 10px;
+  }
+  .cash {
+    margin-left: 80px;
+  }
+  .bet:hover, .cash:hover {
+    border-bottom: 4;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    border-color: green;
+  }
+  .real {
+    height: 30px;
+    width: 50px;
+    border-radius: 25px;
+    position: relative;
+    background-color: green;
+    color: white;
+    margin-top: 50px;
+    margin-left: -185px;
+  }
+  .sim {
+    height: 30px;
+    width: 90px;
+    border-radius: 25px;
+    position: absolute;
+    padding-left: 40px;
+    margin-top: 50px;
+  }
+  .inline-sub2 {
+    color: black;
+    font-size: 12px;
+    margin-left: -30px;
+    margin-top: 90px;
+    background-color: white;
+  }
+  .action {
+    display: flex;
+
+  }
+  .box-search {
+    position: absolute;
+    height: 30px;
+    border-color: green;
+  }
+  .country {
+    border: 0;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  .box-search2 {
+    margin-top: 20px;
+    height: 30px;
+    padding-left: 20px;
+    width: 150px;
+  }
+  .load {
+    margin-top: 10px;
+    height: 30px;
+    width: 180px;
+    background-color: rgb(215, 208, 208);
+    border: 0;
+  }
+  .a-lil {
+    color: rgb(199, 229, 255);
+  }
+  .div4-set {
+    width: 50px;
+    height: 350px;
+    padding-top: -80px;
+
+  }
+  

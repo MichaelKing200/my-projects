@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/24_Home-Live Copy@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18.7937089,7 L26.8333333,7 L26.8333333,24.5 L1.16666667,24.5 L1.16666667,7 L9.69430126,7 L7,2.33333333 L9.02072594,1.16666667 L12.3886025,7 L16.0994076,7 L19.4672842,1.16666667 L21.4880101,2.33333333 L18.7937089,7 Z M3.5,9.33333333 L3.5,22.1666667 L24.5,22.1666667 L24.5,9.33333333 L3.5,9.33333333 Z M18.6666667,15.113704 L11.6666667,18.613704 L11.6666667,11.613704 L18.6666667,15.113704 Z" id="path-1"></path>
+    </defs>
+    <g id="Icon/24_Home-Live-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#1B1E25" fill-rule="nonzero" xlink:href="#path-1"></use>
+        <g id="_Color/BlackBlue" mask="url(#mask-2)" fill="#1B1E25">
+            <rect id="Rectangle-4" x="0" y="0" width="27.9202279" height="28.1003584"></rect>
+        </g>
+    </g>
+</svg>

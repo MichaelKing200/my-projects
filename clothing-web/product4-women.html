@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>men</title>
+</head>
+<style>
+.women img {
+    width: 230px;
+    height: 200px;
+}
+.button {
+    cursor: pointer;
+    color: white;
+}
+</style>
+<body>
+    <div class="women">
+    <img src="../images/women4.jpg" alt="">
+    </div>
+    <p>shirts</p>
+    <p>price : $50</p>
+    <div class="button">
+        <button onclick="addToCart('Product 1', 49.99)">Add to cart</button>
+    add to cart
+</button>
+</div>
+</body>
+<script>
+    function addToCart(productName, price) {
+  alert(`Added ${productName} to cart. Total: $${price}`);
+}
+</script>
+</html>

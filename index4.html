@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>              
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sporty bet</title>
+  <link rel="stylesheet" href="index4.css">
+</head>
+<body>
+  <header class="header">
+    <div class="left-section">
+      <img class="sporty" src="icons/sporty-logo.png" alt="">
+      <img class="Nig" src="icons/flagNigeria.png" alt="" width="100px">
+    </div> 
+
+    <div class="middle-section">
+      <form action="submit">
+      <select class="select" name="" id="">
+      <option value="+20">+20</option>
+      <option value="+20">+222</option>
+      <option value="+20">+233</option>
+      <option value="+20">+234</option>
+      <option value="+20">+235</option>
+    </select>
+    <input class="search-bar" type="search" >
+      <input class="password" type="password" placeholder="password">
+      <button class="Login">Login</button>
+      <button class="Register">Register</button>
+      </form>
+      <div class="check">
+      <input class="checkbox" type="checkbox" checked>
+      <p class="p1">Keep me signed in</p>
+   
+      <a class="fp" href="#">Forgot Password?</a>
+      <a class="d" href="#">Deactivate</a>/
+      <a class="r" href="#">Reactivate</a>
+      </div>
+      <div>
+      </div>
+      </div>
+      <div class="down-section">
+        <button class="sp" onclick="changeColor(this)">Sports</button>
+        <button class="ca" onclick="changeColor(this)" >Casino</button>
+        <button class="li" onclick="changeColor(this)">Live Betting</button>
+        <button class="sv" onclick="changeColor(this)">Scheduled Virtuals</button>
+        <button class="ja" onclick="changeColor(this)">Jackpot</button>
+        <button class="ls" onclick="changeColor(this)">Livescore</button>
+        <button class="Re" onclick="changeColor(this)">Results</button>
+        <button class="Pr" onclick="changeColor(this)">Promotions</button>
+        <button class="app" onclick="changeColor(this)">App</button>
+        <p class="p2">GMT+01:00</p>
+      </div>
+  <script>
+      function changeColor(element) {
+           // Reset all buttons to default state
+           var buttons = document.querySelectorAll('.sp, .ca, .li, .sv, .ja, .ls, .Re, .Pr, .app');
+            buttons.forEach(function(btn) {
+                btn.classList.remove('clicked');
+            });
+
+        element.classList.toggle('clicked');
+    }
+  </script>
+  </header>
+  <div class="sports">
+    <a class="h" href="#">Home</a>
+    <a class="fb" href="#">Football</a>
+    <a class="vf" href="#">vFootball</a>
+    <a class="bb" href="#">Basketball</a>
+    <a class="t" href="#">Tenis</a>
+    <a class="tb" href="#">Table Tenis</a>
+    <a class="ef" href="#">eFootball</a>
+    <a class="ih" href="#">Ice Hockey</a>
+    <a class="vb" href="#">Volleyball</a>
+    <a class="bv" href="#">Beach Volley</a>
+    <select class="select2" name="More sports" id="More sports">
+     <option value="#">More Sports</option>
+     <a href=""><option value="#">American Football</option></a>
+      <a href=""><option value="#">Handball</option></a>
+      <a href=""><option value="#">Baseball</option></a>
+      <a href=""><option value="#">Badminton</option></a>
+      <a href=""><option value="#">elce Hockey</option></a>
+      <a href=""><option value="#">Counter strike</option></a>
+      <a href=""><option value="#">Dota2</option></a>
+      <a href=""><option value="#">League of legends</option></a>
+      <a href=""><option value="#">Rubby</option></a>
+      <a href=""><option value="#">Cricket</option></a>
+      <a href=""><option value="#">Boxing</option></a>
+      <a href=""><option value="#">MMA</option></a>
+      <a href=""><option value="#">Darts</option></a>
+      <a href=""><option value="#">snooker</option></a>
+      <a href=""><option value="#">Futsal</option></a>
+      <a href=""><option value="#">BasketBall 3X3</option></a>
+      <a href=""><option value="#">eFootball</option></a>
+      
+
+    </select>
+  </div>
+  <div class="subdiv">
+   <div class="left">
+    <h3 class="h3">Popular</h3><hr>
+    <a class="today" href="">Today's Football <span class="greater-than">&gt;</span></a><hr>
+    <a class="up" href="">Upcoming Games <span class="greater-than">&gt;</span></a><hr>
+    <a class="euro" href="">EURO  <span class="greater-than">&gt;</span></a><hr>
+    <a class="copa" href="">Copa America <span class="greater-than">&gt;</span></a>
+   </div>
+
+   <div class="middle">
+    <img class="sub-img" src="images/sportyeuro.jpg" alt="">
+   </div>
+   <div class="right">
+    <h4>Instanty Registration</h4>
+    <p class="p4">Make a Deposit and start Betting</p>
+    <form action="submit">
+      <select class="select3" name="" id="">
+      <option value="+20">+20</option>
+      <option value="+20">+222</option>
+      <option value="+20">+233</option>
+      <option value="+20">+234</option>
+      <option value="+20">+235</option>
+    </select>
+    <input class="search-bar2" type="search" placeholder="Mobile number">
+    <button class="btn">Register</button>
+   </div>
+  </div>
+  <div class="d-img">
+    <img  class="s-img" src="images/s.png" alt="">
+  </div>
+  
+  
+<div class="container">
+  <fieldset class="set">
+    <legend>Michael</legend>
+      <div class="subdiv2">
+        <div class="lil-info">
+      <div class="circle"></div>
+
+      
+      <h3 class="high">Highlights</h3>
+      <p class="p6">refresh</p>
+    </div>
+
+    </div>
+  </fieldset>
+  
+  <fieldset class="div4-set">
+  <div class="subdiv4">
+    <div class="inline-sub">
+    <p class="bet">Betslip</p>
+    <p class="cash">Cashout</p>
+  
+  <button class="sim">Sim</button>
+  <button class="real">Real</button>
+  <div class="inline-sub2">
+    <p>To place a bet, click on the odds. Or insert a booking code</p>
+    <div class="action">
+    <form  action="">
+      <input class="box-search" type="text">
+      <select class="country" name="" id="">
+        <option value="Nigeria">Nigeria</option>
+        <option value="Ghana">Ghana</option>
+        <option value="">Tanzania</option>
+        <option value="">Brasil</option>
+        <option value="">Zambia</option>
+        <option value="">Uganda</option>
+        <option value="">International</option>
+      </select>
+    </form>
+   </div>
+   <input class="box-search2" type="text" placeholder="Booking code">
+   <button class="load">Load</button>
+ <p class="a-lil">A booking code enables one to transfer a betslip between different devices.</p>
+  </div>
+</div>
+</fieldset>
+</div>
+  
+</div>
+
+</body>
+</html>

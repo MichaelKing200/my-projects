@@ -1,0 +1,227 @@
+body{
+    /*
+    background-color: rgb(223, 209, 209); */
+    transition: background-color 0.3s ease;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    /*
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px 0;
+    width: 100%;
+    z-index: 1000; 
+    position: fixed;*/
+
+
+}
+select {
+    background-color:  white;
+    border: 0;
+} 
+
+.left-section {
+margin-left: 50px;
+}
+
+
+.middle-section {
+    display: block;
+    align-items: center;
+    margin-bottom: 20px;
+                        
+}
+
+@media screen and (max-width: 600px) {
+    .middle-section {
+      display: none; /* Hide this element on screens smaller than 600px wide */
+    }
+}
+
+.solution, .Resources, .pricing, .products {
+    text-decoration: none;
+    color: black;
+    
+}
+.Resources {
+margin-left: 36px;
+}
+.pricing {
+    margin-left: 26px;
+}
+.products {
+    margin-left: 16px;
+}
+.login {
+    text-decoration: none;
+    color: black;
+}
+.btn1, .btn2 {
+    background-color: rgb(73, 140, 114);
+    border: 30px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.header-box { 
+    padding: 10px; 
+    border: 1px solid 0; 
+    border-radius: 5px; 
+    transition: all 0.3s ease; 
+    height: 50px;
+    width: 100%;
+    position: absolute;
+  }
+  
+  .header-box:hover {
+    background-color: rgb(230, 205, 205); /* Background color when hovered */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Optional: Box shadow for a subtle lift effect */
+  }
+  
+  .body {
+    
+    z-index: 1;
+    padding: 10px 0;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+ form {
+    margin-top: 60px;
+   margin-right: 20px;
+   display: flex;
+   align-items: center;
+
+ }
+ .bar {
+    border: 0;
+    text-decoration: none;
+ }
+ blockquote {
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    width: 50px;
+    height: 30px;
+    padding-left: 8px;
+    padding-top: 8px;
+    
+ }
+ h1 {
+ width: 350px;
+ line-height: 50px;
+ font-weight: bolder;
+ color: rgb(31, 31, 130);
+ margin-left: 50px;
+
+ }
+ .page-bio {
+    line-height: 20px;
+    width: 450px;
+    margin-left: 50px;
+
+ }
+ .down-btn {
+    display: flex;
+    margin-left: 50px;
+
+ }
+ .btn3 {
+    height: 40px;
+ width: 130px;
+  
+ }
+ .btn2 {
+ margin-right: 8px;
+ width: 150px;
+ }
+
+ .bg-image {
+    position: relative;
+    margin-left: 200px;
+    margin-bottom: 900px;
+    margin-top: 0%;
+ }
+
+ .container {
+    display: flex;
+    flex-direction: row;
+    
+ }
+ .left {
+    flex: 1 1 50%;
+    padding: 20px;
+ }
+ .right {
+    flex: 1 1 50%;
+    padding: 20px;
+    margin-top: 100px;
+    margin-right: 90px;
+ }
+
+ @media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left, .right {
+        flex: 1 1 100%;
+    }
+ }
+.grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.grid1, .grid2, .grid3 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    align-items: first baseline;
+}
+
+.icon1, .icon2, .icon3 {
+    padding-right: 10px;
+}
+.review {
+    width: 120px;
+    font-weight: 700;
+   margin-top: 40px;  
+}
+
+@media  (max-width: 600px) {
+    .review {
+        display: none;
+    }
+}
+.bio-2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    line-height: 20px;
+}
+.bio-2-info {
+    margin-left: 50px;
+    margin-bottom: 50px;
+    width: 460px;
+}
+.nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.but1, .but2, .but3, .but4, .but5 {
+    margin-left: 30px;
+    border: 0;
+    background-color:  white;
+    transition: box-shadow 0.3s ease;
+}
+.nav-btn:active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}

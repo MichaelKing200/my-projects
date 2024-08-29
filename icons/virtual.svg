@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/24_Home-Virtual Copy@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.4247788,10 L10,10 L30,47.5 L50,10 L40.5752212,10 L29.9778761,29.7844828 L19.4247788,10 Z M29.9871012,19.1778539 L37.581316,5 L58.3333333,5 L30,58.125 L1.66666667,5 L22.424595,5 L29.9871012,19.1778539 Z M0,20 L5,20 L22.5,55 L17.5,55 L0,20 Z M60,20 L42.5,55 L37.5,55 L55,20 L60,20 Z" id="path-1"></path>
+    </defs>
+    <g id="Icon/24_Home-Virtual-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#1B1E25" fill-rule="nonzero" xlink:href="#path-1"></use>
+        <g id="_Color/BlackBlue" mask="url(#mask-2)" fill="#1B1E25">
+            <rect id="Rectangle-4" x="0" y="0" width="60" height="60"></rect>
+        </g>
+    </g>
+</svg>

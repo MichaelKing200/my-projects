@@ -1,0 +1,364 @@
+header {
+    display: flex;
+    flex-direction: row;
+}
+.image {
+    width: 50px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.left-section {
+
+}
+.btn1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    background-color: rgb(209, 37, 37);
+    color: white;
+    font-weight: 900;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    position: relative;
+    width: 140px;
+}
+ .help, .find, .open {
+    text-decoration: none;
+    margin-top: 0;
+    margin-left: 20px;
+    font-size: 12px;
+    color: black;
+    position: absolute;
+ }
+ @media (max-width: 600px) {
+    .btn1 {
+        display: none;
+    }
+
+ }
+ .help {
+    margin-right: 40px;
+ }
+ .find {
+    margin-left: 108px;
+ }
+ .open {
+    margin-left: 160px;
+
+ }
+  .middle-section {
+   margin-left: 165px;
+    margin-top: 40px;
+    position: absolute;
+    display: flex;
+}  
+@media (max-width: 600px) {
+  .middle-section {
+    display: none;
+    
+}
+}
+ .per, .sme, .cor, .invest, .media, .crs, .about{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 900;
+    margin-left: 6px;
+ }
+ .per:hover, .sme:hover, .cor:hover, .invest:hover, .media:hover, .crs:hover, .about:hover {
+   color: red;
+ }
+ .right-section {
+    display: flex;
+    margin-left: 700px;
+
+ }
+ .search-bar {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+ }
+ .icon {
+    width: 30px;
+    height: 40px;
+    /* position: relative; */
+    margin-left: -40px;
+    margin-top: 30px;
+ }
+ .sub {
+  display: flex;
+  position: absolute;
+  margin-left: 900px;
+ }
+ @media (max-width: 600px) {
+    .search-bar, .icon {
+        display: none;
+    }
+    .image {
+        width: 100px;
+        height: 100px;
+        margin-left: -250px;
+    }
+    .sub {
+        display: none;
+    }
+ }
+ .a1, .a2, .a3, .sp {
+    text-decoration: none;
+    color: black;
+    margin-top: 0;
+    margin-left: 2px;
+ }
+ .a1:hover, .a2:hover,.a3:hover {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 3px;
+    border-style: solid;
+    margin-left: 100px;
+ }
+ .sp {
+  margin-left: 2px;  
+ }
+ 
+
+@media (max-width: 1200px) {
+    .max {
+        display: none;
+    }
+}
+ @media (max-width: 600px) {
+    .max {
+        display: contents;
+        margin-left: -650px;
+        margin-top: 40px;
+        display: inline-flex;
+    }
+    .icon2 {
+        margin-left: 10px;
+    }
+ }
+
+
+ .navs {
+   display: flex;
+   margin-top: 60px;
+   margin-left: -250px;
+
+ }
+  .menu, .search, .link, .log, .countries{
+  font-size: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  /* margin-left: 10px; */
+ }
+ .menu {
+   margin-left: 28px;
+ }
+ .search {
+   margin-left: 9px;
+ } 
+ .log {
+   margin-left: 9px;
+
+ }
+ .countries{
+   margin-left: 32px;
+ }
+ .link {
+   margin-left: 25px;
+
+ }
+ .pad, .links {
+  margin-top: 30px;
+ }
+ .pad {
+  
+ }
+ .links {
+  margin-left: 10px;
+ }
+ .nig {
+   width: 30px;
+   height: 20px;
+   margin-top: 30px;
+   margin-left: 20px;
+ }
+ .sub-img {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   width: 60px;
+   /* position: fixed; */
+ }
+ .whatsapp, .ytube2  {
+   width: 50px;
+ }
+ .whatsapp {
+   margin-top: 90px;
+   width: 40px;
+   border-radius: 20px;
+ }
+ .fb {
+   margin-top: 20px;
+   width: 40px;
+   border-radius: 30px;
+ }
+ .twiter {
+   width: 40px;
+   height: 40px;
+   border-radius: 100px;
+   margin-top: 20px;
+
+ }
+ .insta {
+  width: 40px;
+  border-radius: 20px;
+  margin-top: 20px;
+ }
+ .ytub {
+   margin-top: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+ }
+ .lin {
+   width: 40px;
+   border-radius: 20px;
+   margin-top: 20px;
+ }
+ .circle {
+  background-color: red;
+  color: white;
+  border-radius: 300px;
+  text-align: center;
+  padding-top: 10px;
+  width: 50px;
+  height: 35px;
+  margin-top: 20px;
+}
+ .bg {
+   position: absolute;
+   margin-top: 20px;
+ }
+ .acc, .card,.app, .self, .atm, .form, .fa {
+   text-decoration: none;
+   color: black;
+   font-size: 12px;
+   font-weight: bold;
+ }
+ fieldset {
+   width: 150px;
+   background-color: white;
+
+ }
+ .text-div {
+   position: fixed;
+   margin-top: -400px;
+   margin-left: 950px;
+ }
+ @media (max-width: 600px) {
+   .bg {
+   display: none;
+   }
+   .bio {
+    display: none;
+   }
+   .text-div {
+    display: none;
+   }
+   .sub-img {
+    display: none;
+   }
+   .mini {
+    display: none;
+   }
+ }
+ @media (max-width: 1200px) {
+  .second-img {
+    display: none;
+  }
+  
+ }
+ .bground {
+  width: 600px;
+  position: absolute;
+ }
+ @media (max-width: 600px) {
+  .second-img {
+    display: inline;
+
+  }
+  
+ }
+
+ .mini {
+
+ }
+.ways, .zen, .cus, .comm, .hut {
+  margin-left: 100px;
+  margin-top: -80px;
+}
+.w, .c, .co, .z, .h {
+text-decoration: none;
+color: black;
+margin-left: 55px;
+font-size: 12px;
+}
+.h{
+ margin-left: -2px; 
+}
+.w {
+  margin-left: 70px;
+}
+
+.bio {
+  width: 700px;
+  height: 600px;
+  margin-top: 100px;
+  margin-left: 90px;
+ }
+ .h2 {
+  margin: 60px;
+  font-weight: bolder;
+  font-family: Arial;
+ }
+ .p1 {
+  width: 450px;
+  font-family: Arial;
+  margin-top: -40px;
+ }
+ .btn2, .btn3 {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 900;
+  margin-left: 10px;
+  margin-top: 19px;
+ }
+ .btn2:hover, .btn3:hover {
+  background-color: rgb(213, 19, 19);
+ }
+ .btn2 {
+  margin-left: 50px;
+ }
+
+ .bg2 {
+  margin-left: 700px;
+  margin-top: -290px;
+  width: 300px;
+ }

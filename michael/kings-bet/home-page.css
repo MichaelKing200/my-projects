@@ -1,0 +1,377 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-attachment: scroll;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white; 
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 0%;
+    right: 160px;
+    transform: translateY(50%);
+    cursor: pointer;
+}
+
+.ball-icon {
+    position: absolute;
+    top: 100px;
+    left: 1px;
+    width: 10px;
+    height: 10px;
+}
+
+.ball-icon svg {
+    fill: white;
+}
+
+.sports-text {
+    position: absolute;
+    top: 120px;
+    left: 1px;
+    color: black;
+    font-size: 12px;
+}
+
+.hr-container {
+    background-color: red;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: red;
+    margin: 0;
+}
+.tv-icon {
+    position: absolute;
+    top: 101px;
+    left: 45px;
+    width: 20px;
+    height: 20px;
+}
+
+.tv-icon svg {
+    fill: black;
+}
+
+.live-text {
+    position: absolute;
+    top: 120px;
+    left: 45px;
+    color: black;
+    font-size: 12px;
+}
+
+.v-icon {
+    position: absolute;
+    top: 102px;
+    left: 85px; 
+    width: 20px;
+    height: 15px;
+}
+
+.v-icon svg {
+    fill: black;
+}
+
+.virtuals-text {
+    position: absolute;
+    top: 120px;
+    left: 75px; 
+    color: black;
+    font-size: 11px;
+}
+
+.pyramid-icon {
+    position: absolute;
+    top: 103px;
+    left: 130px; 
+    width: 20px;
+    height: 20px;
+}
+
+.pyramid-icon svg {
+    fill: violet;
+}
+
+.games-text {
+    position: absolute;
+    top: 120px;
+    left: 125px;
+    color: black;
+    font-size: 11px;
+}
+.recycle-icon {
+    position: absolute;
+    top: 105px;
+    left: 170px;
+    width: 20px;
+    height: 20px;
+}
+
+.icon svg {
+    fill: black;
+}
+.recycle-text {
+    position: absolute;
+    top: 120px;
+    left: 165px; 
+    color: black;
+    font-size: 11px;
+}
+.basketball-icon {
+    position: absolute;
+    top: 102px;
+    left: 230px;
+    width: 20px;
+    height: 20px;
+}
+.basketball-icon svg {
+    fill: orange; 
+}
+
+.basketball-text {
+    position: absolute;
+    top: 120px;
+    left: 220px;
+    color: black;
+    font-size: 12px;
+}
+
+   /* New baseball icon styles */
+   .baseball-icon {
+    position: absolute;
+    top: 102px;
+    left: 275px;
+    width: 20px;
+    height: 20px;
+}
+
+.baseball-icon svg {
+    fill: brown; /* Change the color as needed */
+}
+
+.baseball-text {
+    position: absolute;
+    top: 120px;
+    left: 275px;
+    color: black;
+    font-size: 12px;
+}
+  .volleyball-icon {
+    position: absolute;
+    top: 102px;
+    left: 322px;
+  }
+  .volleyball-icon svg {
+    fill: black;
+  }
+  .volleyball-text {
+    position: absolute;
+    top: 120px;
+    left: 322px;
+    color: black;
+    font-size: 12px;
+  }
+  .cricket-icon {
+    position: absolute;
+    top: 102px;
+    left: 375px;
+  }
+  .cricket-icon svg {
+    fill: aquamarine;
+  }
+  .cricket-text {
+    position: absolute;
+    top: 120px;
+    left: 375px;
+    color: black;
+    font-size: 12px;
+  }
+  .tenis-icon {
+    position: absolute;
+    top: 102px;
+    left: 422px;
+  }
+  .tenis-icon svg {
+    fill: yellow;
+  }
+  .tenis-text {
+    position: absolute;
+    top: 120px;
+    left: 422px;
+    color: black;
+    font-size: 12px;
+  }
+  .handball-icon {
+    position: absolute;
+    top: 102px;
+    left: 465px;
+  }
+  .handball-icon svg {
+    fill: palegreen;
+  }
+  .handball-text {
+    position: absolute;
+    top: 120px;
+    left: 455px;
+    color: black;
+    font-size: 12px;
+  }
+  .icehockey-icon {
+    position: absolute;
+    top: 102px;
+    left: 511px;
+  }
+  .icehockey-icon svg {
+    fill: peru;
+  }
+  .icehockey-text {
+    position: absolute;
+    top: 120px;
+    left: 501px;
+    color: black;
+    font-size: 12px;
+  }
+  .efootball-icon {
+    position: absolute;
+    top: 102px;
+    left: 565px;
+  }
+  .efooiball-icon svg {
+    fill: palevioletred;
+  }
+  .efootball-text {
+    position: absolute;
+    top: 120px;
+    left: 555px;
+    color: black;
+    font-size: 12px;
+  }
+  .vfootball-icon {
+    position: absolute;
+    top: 102px;
+    left: 605px;
+  }
+  .vfootball-icon svg {
+    fill: aqua;
+  }
+  .vfootball-text {
+    position: absolute;
+    top: 120px;
+    left: 600px;
+    color: black;
+    font-size: 12px;
+  }
+  .beach-volley-icon {
+    position: absolute;
+    top: 102px;
+    left: 660px;
+  }
+  .beach-volley-icon svg {
+    fill: peru;
+  }
+  .beach-volley-text {
+    position: absolute;
+    top: 120px;
+    left: 650px;
+    color: black;
+    font-size: 12px;
+  }
+  .LOL-icon {
+    position: absolute;
+    top: 102px;
+    left: 700px;
+  }
+  .LOL-icon svg {
+    fill: black;
+  }
+  .LOL-text {
+    position: absolute;
+    top: 120px;
+    left: 700px;
+    color: black;
+    font-size: 12px;
+  }
+  .Dota2-icon {
+    position: absolute;
+    top: 102px;
+    left: 730px;
+  }
+  .Dota2-icon svg {
+    fill: peru;
+  }
+  .Dota2-text {
+    position: absolute;
+    top: 120px;
+    left: 730px;
+    color: black;
+    font-size: 12px;
+  }
+  .sporty-tv-icon {
+    position: absolute;
+    top: 102px;
+    left: 775px;
+  }
+  .sporty-tv-icon svg {
+    fill: black;
+  }
+  .sportytv-text {
+    position: absolute;
+    top: 120px;
+    left: 780px;
+    color: black;
+    font-size: 12px;
+  }
+  .Dart-icon {
+    position: absolute;
+    top: 102px;
+    left: 830px;
+  }
+  .Dart-icon svg {
+    fill: black;
+  }
+  .Dart-text {
+    position: absolute;
+    top: 120px;
+    left: 830px;
+    color: black;
+    font-size: 12px;
+  }
+  .sporty-news-icon {
+    position: absolute;
+    top: 102px;
+    left: 870px;
+  }
+  .sporty-news-icon svg {
+    fill: black;
+  }
+  .sporty-news-text {
+    position: absolute;
+    top: 120px;
+    left: 870px;
+    color: black;
+    font-size: 12px;
+  }

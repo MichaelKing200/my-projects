@@ -1,0 +1,21 @@
+
+.shirt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+}
+
+.shirt a {
+    margin: 10px; /* Adjust the margin based on your preference */
+}
+
+.shirt img {
+    width: 200px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.shirt h3 {
+    text-align: center;
+}
